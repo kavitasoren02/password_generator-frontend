@@ -22,24 +22,24 @@ A secure password manager built with Next.js, TypeScript, and client-side encryp
 ## Setup
 
 1. Install dependencies:
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
-2. Create a \`.env.local\` file:
-\`\`\`bash
+2. Create a `.env.local` file:
+```bash
 cp .env.local.example .env.local
-\`\`\`
+```
 
-3. Update the API URL in \`.env.local\`:
-\`\`\`
+3. Update the API URL in `.env.local`:
+```bash
 NEXT_PUBLIC_API_URL=http://localhost:5000/api
-\`\`\`
+```
 
 4. Run the development server:
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 5. Open [http://localhost:3000](http://localhost:3000)
 
